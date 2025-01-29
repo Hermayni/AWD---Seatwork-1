@@ -4,23 +4,21 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/Hermayni">
+    <img src="./assets/img/PH (1).png" alt="phds" width="200" height="200">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">AWD - Seatwork 1</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Welcome to the Player Management System! This website is designed to help you manage and display information about players in a structured and interactive way
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Hermayni/AWD-Seatwork-1)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -62,10 +60,19 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+## - What is the project
+ The project is a Player Management System website designed to store, display, and manage information about players, including their names, scores, levels, and games played.
+## - Whats the purpose
+The purpose of the project is to provide a simple and interactive way to manage player data, allowing users to sort and filter players based on various criteria and view the top 3 players in a leaderboard.
+## - What are key components
+**Player Table:** Displays the list of players with their names, scores, levels, and games played.
+<br>**Sorting Functionality:** Allows users to sort players by name, score, or level by clicking on the table headers.
+<br>**Filtering Functionality:** Provides a dropdown menu to filter players alphabetically by name or sort them by score or level from highest to lowest.
+**Top 3 Leaderboard:** Shows the top 3 players based on their scores in a separate table.
+## - What technology used and how it is used
+**HTML:** Used to structure the content of the webpage, including the player table, leaderboard, and filter dropdown.
+<br>**CSS:** Used to style the webpage, providing a modern and responsive design with hover effects and a clean layout.
+<br>**JavaScript:** Used to handle the dynamic functionality, such as sorting and filtering players, and updating the leaderboard.
 
 ### Key Components
 <!-- TODO: List of Key Components -->

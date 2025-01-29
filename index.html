@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Management</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Player Management System</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="filter-container">
+                <label for="filterCriteria">Filter by:</label>
+                <select id="filterCriteria">
+                    <option value="name">Name (A-Z)</option>
+                    <option value="score">Score (Highest to Lowest)</option>
+                    <option value="level">Level (Highest to Lowest)</option>
+                </select>
+                <button onclick="applyFilter()">Apply Filter</button>
+            </div>
+            <table id="playerTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortPlayers('name')">Name</th>
+                        <th onclick="sortPlayers('score')">Score</th>
+                        <th onclick="sortPlayers('level')">Level</th>
+                        <th onclick="sortPlayers('gamesPlayed')">Games Played</th>
+                    </tr>
+                </thead>
+                <tbody id="playerBody">
+                    <!-- Player rows will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+            <h2>Leaderboard</h2>
+            <table class="leaderboardTable" id="leaderboardTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboardBody">
+                    <!-- Top 3 player rows will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 PHDS. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html
