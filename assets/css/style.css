@@ -18,6 +18,46 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url(/assets/img/Untitled\ design\ \(1\).png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    margin-top: 2.5rem;
+    width: 75%;
+    margin-left: 12%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    background-color: #e1e3e7;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+header, footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #4CAF50;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+header h1 {
+    font-family: Levenim;
+    font-size: 2.5rem;
+    color: black;
+}
+
+main {
+    flex: 1;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
