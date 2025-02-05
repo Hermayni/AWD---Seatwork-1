@@ -1,16 +1,16 @@
 @font-face {
     font-family: Pixel;
-    src: url(./fonts/RasterForgeRegular-JpBgm.ttf);
+    src: url(../fonts/RasterForgeRegular-JpBgm.ttf);
 }
 
 @font-face {
     font-family: Symtext;
-    src: url(./fonts/Symtext.ttf);
+    src: url(../fonts/Symtext.ttf);
 }
 
 @font-face {
     font-family: Levenim;
-    src: url(./fonts/levenim-mt-regular.ttf);
+    src: url(../fonts/levenim-mt-regular.ttf);
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url(./img/Untitled\ design\ \(1\).png) no-repeat center center fixed;
+    background: url(../img/Untitled\ design\ \(1\).png) no-repeat center center fixed;
     background-size: cover;
 }
 
